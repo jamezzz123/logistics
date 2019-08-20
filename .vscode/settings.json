@@ -1,0 +1,33 @@
+{
+        "liveServer.settings.port": 5501,
+        "window.zoomLevel": 0.5,
+        "editor.fontSize": 14,
+        "editor.lineHeight": 26,
+        // "editor.fontFamily": "Fira code,Menlo, Monaco,'Courier New',monospace",
+        "editor.wordWrap": "on",
+        "editor.smoothScrolling": true,
+        "files.insertFinalNewline": true,
+        "editor.multiCursorModifier": "ctrlCmd",
+        "liveSassCompile.settings.formats": [
+            // This is Default.
+            {
+                "format": "expanded",
+                "extensionName": ".css",
+                "savePath": "Frontend/css"
+            },
+            // You can add more
+            {
+                "format": "compressed",
+                "extensionName": ".min.css",
+                "savePath": "Frontend/css"
+            },
+        ],
+
+        "liveSassCompile.settings.generateMap": false,
+        "liveSassCompile.settings.excludeList": [
+            "Frontend/scss/bootstrap/bootstrap-grid.scss",
+            "Frontend/scss/bootstrap/bootstrap-reboot.scss",
+        ]
+
+
+    }

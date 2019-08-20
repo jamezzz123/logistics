@@ -762,7 +762,7 @@ h1, h2, h3, h4, h5,
   top: 0;
   background: -webkit-gradient(linear, left top, right top, from(#CB2D6f), to(#14A098));
   background: linear-gradient(to right, #CB2D6f, #14A098);
-  opacity: 0.3;
+  opacity: 0.4;
 }
 
 .site-blocks-cover .player {
@@ -1869,4 +1869,38 @@ h1, h2, h3, h4, h5,
   color: rgba(73, 80, 87, 0.5);
   font-weight: 200;
   font-style: italic;
+}
+
+.leftside,
+.rightside {
+  height: 50vh;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .leftside,
+  .rightside {
+    height: 100vh;
+  }
+}
+
+.leftside {
+  background-color: #CB2D6f;
+}
+
+.rightside {
+  background-color: #14A098;
+}
+
+.position-header-text {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 35%;
+}
+
+.transperant-bg {
+  opacity: 0.9;
 }
